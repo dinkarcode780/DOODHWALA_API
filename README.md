@@ -1,24 +1,30 @@
-🥛 Doodhwala – Online Milk Delivery API
-Doodhwala ek modern milk & dairy product delivery platform hai jisme seamless order management, product listing aur secure authentication system implement kiya gaya hai.
+🥛 Doodhwala – Online Milk Delivery API with Admin Panel
+Doodhwala ek modern milk & dairy product delivery platform hai jisme customer side aur admin panel dono implement kiye gaye hain. Admin panel se products manage, orders track aur user data handle kiya ja sakta hai.
 
 ✨ Features
-User Authentication – JWT token based login/signup
+User Side
+Secure signup/login (JWT)
 
-Product Management – Add, update aur delete milk products
+Milk & dairy product listing
 
-Image Upload – Multer-S3 se direct AWS S3 bucket pe image upload
+Place aur track orders
 
-Order System – Place aur track orders in real-time
+Real-time order status update
 
-RESTful API – Clean aur scalable API endpoints
+Admin Panel
+Dashboard: Orders aur products ka overview
+
+Product Management: Add, edit, delete products (image upload ke sath)
+
+Order Management: Order status update aur history check
+
+User Management: Registered users ki list aur data handle karna
 
 🛠 Tech Stack
 Backend: Node.js, Express.js
 
 Database: MongoDB Atlas
 
-Image Upload: AWS S3 with Multer-S3
+Image Upload: Multer-S3 (AWS S3 bucket)
 
 Authentication: JWT (JSON Web Token)
-
-Other: ES6, dotenv, asyncHandler
